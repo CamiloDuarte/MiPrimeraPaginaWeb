@@ -6,6 +6,11 @@
   margin: 0;
   
 }
+
+body{
+
+  transition: all 1s ease; 
+}
 /* header */
 .title {
   text-align: center;
@@ -103,6 +108,7 @@ footer{
 body.dark-mode{
   background-color: #222;
   color: #FFF;
+  transition: all 1s ease; 
 }
 body.dark-mode .title{
   color: #FFF;
