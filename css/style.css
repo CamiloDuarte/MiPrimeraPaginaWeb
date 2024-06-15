@@ -1,5 +1,7 @@
 /* Global */
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 *{
   margin: 0;
   
@@ -26,13 +28,14 @@ a:visited {
   color:black;
 }
 
-.menu {
+.barra-menu {
   display: flex;
   justify-content: space-between;
+  margin: 0 15vw;
 }
 
 .elementos-menu {
-  padding: 1em 2vw;
+  margin-right: 8px;
 }
 /* post */
 h1, h2{
@@ -40,7 +43,9 @@ h1, h2{
 }
 
 .titulo-blog{
-  padding: 2rem 0;
+  padding: 1rem 0;
+  font-family: "Grenze Gotisch", serif;
+  font-size: 3rem;
 }
 .post {
   margin: 15px 15vw;
@@ -50,7 +55,13 @@ h1, h2{
 }
 
 .comentarios {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.resumen{
+  font-family: "Outfit", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 150;
 }
 
 svg {
@@ -62,4 +73,18 @@ svg {
   padding-top: 2rem;
   display: flex;
   justify-content: space-between;
+}
+
+.Read-more{
+  text-decoration: underline;
+  font-style: italic;
+}
+
+/*foot*/
+
+footer{
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 100;
+  margin: 1rem 0;
 }
