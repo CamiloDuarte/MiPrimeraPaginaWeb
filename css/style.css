@@ -36,6 +36,16 @@ a:visited {
 .elementos-menu {
   margin-right: 8px;
 }
+
+#toggle{
+  display: none;
+}
+
+.icon-theme{
+  padding-right: 9px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
 /* post */
 h1, h2{
   text-align: center
@@ -86,4 +96,26 @@ footer{
   font-family: "Outfit", sans-serif;
   font-weight: 100;
   margin: 1rem 0;
+}
+
+/*Modo oscuro*/
+
+body.dark-mode{
+  background-color: #222;
+  color: #FFF;
+}
+body.dark-mode .title{
+  color: #FFF;
+}
+
+body.dark-mode a:visited{
+  color: #FFF;
+}
+
+body.dark-mode .post{
+  border: 3px solid #FFF;
+}
+
+body.dark-mode svg{
+  color: #FFF;
 }
